@@ -1,7 +1,7 @@
 .header {
   background: #F8EED4;
   position: relative;
-//   border-bottom: 1px solid #C4A36A;
+  
 }
 
 .top-line {
@@ -53,15 +53,14 @@
 }
 
 .logo {
-  position: absolute;
   left: 50%;
   transform: translateX(-50%);
   top: -18px;
 }
 
 .logo-circle {
-  width: 140px;
-  height: 140px;
+  width: 70px;
+  height: 70px;
 
   border-radius: 50%;
   background: #F8EED4;

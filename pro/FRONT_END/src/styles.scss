@@ -5,10 +5,10 @@
 // custom components at https://material.angular.dev/guide/theming
 
 
-html {
-  height: 100%;
+// html {
+//   height: 100%;
   
-}
+// }
 
 body {
   // Default the application to a light color theme. This can be changed to
@@ -24,8 +24,8 @@ body {
   font: var(--mat-sys-body-medium);
 
   // Reset the user agent margin.
-  margin: 0;
-  height: 100%;
+//   margin: 0;
+//   height: 100%;
 }
 // Include theming for Angular Material with `mat.theme()`.
 // This Sass mixin will define CSS variables that are used for styling Angular Material
@@ -34,10 +34,10 @@ body {
 // custom components at https://material.angular.dev/guide/theming
 
 
-html {
-  height: 100%;
+// html {
+//   height: 100%;
   
-}
+// }
 
 body {
   // Default the application to a light color theme. This can be changed to

@@ -1,0 +1,77 @@
+@import "@fontsource/great-vibes";
+.about-melei {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+    .about-img img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .about-detail {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .title {
+            width: 100%;
+            font-size: 48px;
+            letter-spacing: 2px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .about-heading {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            gap: 30px;
+            color: red;
+            letter-spacing: 5px;
+            align-items: center;
+
+            span {
+                text-transform: uppercase;
+            }
+
+            .line {
+                width: 40%;
+                background-color: red;
+                height: 1px;
+            }
+        }
+
+        .description {
+            font-size: 17px;
+            line-height: 1.9;
+            color: #5a4a42;
+            text-align: justify;
+            margin-bottom: 24px;
+            letter-spacing: 0.2px;
+        }
+
+        .sign {
+    
+
+            p {
+                text-transform: uppercase;
+                font-size: 15px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+                letter-spacing: 2px;
+
+            }
+
+            span {
+                font-family: 'Great Vibes', cursive;
+                color: #d85a7a;
+                font-size: 32px;
+            }
+        }
+
+    }
+
+
+
+}

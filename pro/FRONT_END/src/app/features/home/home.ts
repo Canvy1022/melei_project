@@ -4,7 +4,7 @@ import { RouterOutlet } from "../../../../node_modules/@angular/router/types/_ro
 
 @Component({
   selector: 'app-home',
-  imports: [HeroSection, RouterOutlet],
+  imports: [HeroSection],
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })

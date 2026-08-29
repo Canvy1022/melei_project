@@ -1,19 +1,19 @@
 .footer {
-  position: relative;
+//   position: relative;
   background: linear-gradient(135deg, #2b120d 0%, #1d0d08 100%);
   color: #fff;
   padding: 60px 50px 20px;
   overflow: hidden;
 
-  &::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background:
-      radial-gradient(circle at top right,
-      rgba(255, 140, 120, 0.12), transparent 45%);
-    pointer-events: none;
-  }
+//   &::before {
+//     content: "";
+//     position: absolute;
+//     inset: 0;
+//     background:
+//       radial-gradient(circle at top right,
+//       rgba(255, 140, 120, 0.12), transparent 45%);
+//     pointer-events: none;
+//   }
 }
 
 .footer-container {
